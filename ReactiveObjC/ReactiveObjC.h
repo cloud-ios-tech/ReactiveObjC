@@ -15,6 +15,7 @@ FOUNDATION_EXPORT double ReactiveObjCVersionNumber;
 FOUNDATION_EXPORT const unsigned char ReactiveObjCVersionString[];
 
 #import <ReactiveObjC/EXTKeyPathCoding.h>
+#import <ReactiveObjC/RACEXTKeyPathCoding.h>
 #import <ReactiveObjC/EXTScope.h>
 #import <ReactiveObjC/RACEXTScope.h>
 #import <ReactiveObjC/NSArray+RACSequenceAdditions.h>

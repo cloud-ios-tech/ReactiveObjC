@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2867B3A02ACEC19B0011E6E7 /* NSInvocation+RACTypeParsing.h in Headers */ = {isa = PBXBuildFile; fileRef = D037643A19EDA41200A782A9 /* NSInvocation+RACTypeParsing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2874DDBB2AEA9D960090351B /* RACEXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 2874DDBA2AEA9D470090351B /* RACEXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2874DDBF2AEFE74F0090351B /* RACEXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 2874DDBE2AEFE6E90090351B /* RACEXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		314304171ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 314304151ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		314304181ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 314304161ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.m */; };
 		3A17B4A61E8EFDD500C8999E /* RACAnnotations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A17B4A51E8EFDCD00C8999E /* RACAnnotations.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -772,6 +773,7 @@
 
 /* Begin PBXFileReference section */
 		2874DDBA2AEA9D470090351B /* RACEXTScope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACEXTScope.h; sourceTree = "<group>"; };
+		2874DDBE2AEFE6E90090351B /* RACEXTKeyPathCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACEXTKeyPathCoding.h; sourceTree = "<group>"; };
 		314304151ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+RACSignalSupport.h"; sourceTree = "<group>"; };
 		314304161ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+RACSignalSupport.m"; sourceTree = "<group>"; };
 		3A17B4A51E8EFDCD00C8999E /* RACAnnotations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACAnnotations.h; sourceTree = "<group>"; };
@@ -1164,6 +1166,7 @@
 				D037666919EDA57100A782A9 /* EXTScope.h */,
 				D037666A19EDA57100A782A9 /* metamacros.h */,
 				2874DDBA2AEA9D470090351B /* RACEXTScope.h */,
+				2874DDBE2AEFE6E90090351B /* RACEXTKeyPathCoding.h */,
 			);
 			path = extobjc;
 			sourceTree = "<group>";
@@ -1747,6 +1750,7 @@
 				D037664519EDA41200A782A9 /* UISegmentedControl+RACSignalSupport.h in Headers */,
 				2874DDBB2AEA9D960090351B /* RACEXTScope.h in Headers */,
 				D037666419EDA43C00A782A9 /* ReactiveObjC.h in Headers */,
+				2874DDBF2AEFE74F0090351B /* RACEXTKeyPathCoding.h in Headers */,
 				D037652519EDA41200A782A9 /* NSObject+RACPropertySubscribing.h in Headers */,
 				D03765B119EDA41200A782A9 /* RACQueueScheduler.h in Headers */,
 				D037662519EDA41200A782A9 /* UIButton+RACCommandSupport.h in Headers */,
