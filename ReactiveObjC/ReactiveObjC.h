@@ -63,6 +63,7 @@ FOUNDATION_EXPORT const unsigned char ReactiveObjCVersionString[];
 #import <ReactiveObjC/RACTuple.h>
 #import <ReactiveObjC/RACUnit.h>
 #import <ReactiveObjC/NSInvocation+RACTypeParsing.h>
+#import <ReactiveObjC/NSObject+RACKVOWrapper.h>
 
 #if TARGET_OS_WATCH
 #elif TARGET_OS_IOS || TARGET_OS_TV
